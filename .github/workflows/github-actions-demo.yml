@@ -17,5 +17,5 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - run: git checkout -b testbranch
-      - run: git push
+      - run: git branch
 
