@@ -33,4 +33,5 @@ interface AffirmCheckoutManagerInterface
      * @return string
      */
     public function initCheckout();
+    
 }
